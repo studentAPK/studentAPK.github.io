@@ -1,0 +1,82 @@
+
+
+<html>
+<header>
+<meta charset="utf-8">   
+<title>Check Age!</title>
+
+<script type="text/javascript">
+var ageCheck = window.prompt("Vänligen ange din ålder:")
+
+if (ageCheck < 20) {
+
+ window.alert(" Du har angett att du är  " + ageCheck + " år.");
+ window.alert("Du måste vara minst 20 år för att få tillgång till denna sida.");
+ location.href = ("http://www.google.com");
+}
+
+ else if (ageCheck > 19 && ageCheck < 101 ) {
+
+  window.alert("Du är tillräckligt gammal, välkommen!");
+ }
+
+else {
+
+ window.alert("Fast nej, du måste vara ärlig om din ålder.");
+ location.href = ("https://www.youtube.com/watch?v=WcWM_1hBu_c");
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</header>
+
+<body>
+  <div class="container">
+    <h2>Omvandlarverktyget</h2>
+    <a href="#demo" class="btn btn-info" data-toggle="collapse">Omvandlarverktyget</a>
+    <div id="demo" class="collapse">
+      <div class="container">
+        <h2>Alternativ</h2>
+        <form action="" method="get">
+          <div class="container">
+            <p>Vilken alkoholtyp vill du ha?</p>
+            <select id="alkoholTyp" name="Alkoholtyp">
+              <option value="Välj alkoholtyp" selected>Välj alkoholtyp</option>
+              <option value="ol2.csv">Öl</option>
+              <option value="cider2.csv">Cider</option>
+              <option value="blanddrycker2.csv">Blanddrycker</option>
+              <option value="rottVin2.csv">Rött vin</option>
+              <option value="vittVin2.csv">Vitt vin</option>
+              <option value="rosevin2.csv">Rosévin</option>
+              <option value="mousserande2.csv">Mousserande vin</option>
+              <option value="likor2.csv">Likör</option>
+              <option value="punsch2.csv">Punsch</option>
+              <option value="okryddadSprit2.csv">Okryddad sprit</option>
+              <option value="rom2.csv">Rom</option>
+              <option value="whisky2.csv">Whisky</option>
+              <option value="gin2.csv">Gin</option>
+              <option value="tequilaOchMezcal2.csv">Tequila och Mezcal</option>
+            </select>
+            <p></p>
+            <br>
+            <p>Hur mycket pengar vill du spendera?</p>
+            <select id="SEK" name="SEK">
+              <option value="Välj summa" selected>Välj summa</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+              <option value="150">150</option>
+              <option value="200">200</option>
+              <option value="300">300</option>
+              <option value="500">500</option>
+            </select>
+            <p id="du"></p>
+	    <br>
+	    <input id="hej" type="button" value="Resultat">
+	  </div>
+      </div>
+    </div>
+    <script src="./mick.js"></script>
+</body>
+</html>﻿ 
