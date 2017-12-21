@@ -172,18 +172,12 @@ COLUMNS
             margin-bottom: 50px;
 }
 
-#omvandlarbild > #omvandlarrubrik {
-	position: absolute;
-	top: 50%;
-    	left: 50%;
-    	transform: translate(-50%, -50%);
-	
- /*#omvandlarrubrik {
+#omvandlarrubrik {
             position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-   */         
+            
             }
 
 /*#bakgrundsbild1 {
