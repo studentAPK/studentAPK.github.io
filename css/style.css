@@ -175,10 +175,7 @@ COLUMNS
 #omvandlarbild > #omvandlarrubrik {
 	top: 20%;
     	left: 50%;
-    	margin: 0;
-    	color: #000;
-    	font-size: 2em;
-    	position: absolute;
+    	margin: 100;
     	transform: translate(-50%, -50%);
 	
  /*#omvandlarrubrik {
