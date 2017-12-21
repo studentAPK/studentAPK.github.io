@@ -173,13 +173,12 @@ COLUMNS
 }
 
 #omvandlarbild > #omvandlarrubrik {
-	top: 50%;
+	top: 20%;
     	left: 50%;
     	margin: 0;
     	color: #000;
     	font-size: 2em;
     	position: absolute;
-    	font-family: sans-serif;
     	transform: translate(-50%, -50%);
 	
  /*#omvandlarrubrik {
