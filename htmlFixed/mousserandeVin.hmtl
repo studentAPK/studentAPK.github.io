@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="temp.css">
+    </head>
+
+    <div id="wrapper">
+      <div class="header">
+	<img src="logga_bakgrund.jpg" alt="Logga" id="logga"/>
+	<h1 id="rubrik">STUDENT<br /><span id="apkrubrik">APK</span></h1>
+      </div> <!-- END DIV HEADER -->
+    </div><!-- END DIV WRAPPER -->
+
+
+    <table id="customers">
+      <tbody>
+	<tr>
+	  <th>Namn</th>
+	  <th>Pris per enhet</th>
+	  <th>Pris per liter</th>
+	  <th>Varugrupp</th>
+	  <th>Procenthalt</th>
+	  <th>Volym</th>
+	  <th>Undergrupp</th>
+	  <th>Alkohol per krona</th>
+	</tr>
+	<tr>
+<td>Törley</td>
+<td align="right">60</td>
+<td align="right">80</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Halvtorrt</td>
+<td align="right">1.44</td>
+</tr>
+<tr>
+<td>Törley</td>
+<td align="right">60</td>
+<td align="right">80</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.44</td>
+</tr>
+<tr>
+<td>Pata Negra</td>
+<td align="right">60</td>
+<td align="right">80</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.44</td>
+</tr>
+<tr>
+<td>Pol Rémy</td>
+<td align="right">58</td>
+<td align="right">77.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.42</td>
+</tr>
+<tr>
+<td>Chapel Hill</td>
+<td align="right">68</td>
+<td align="right">90.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.38</td>
+</tr>
+<tr>
+<td>Chapel Hill</td>
+<td align="right">68</td>
+<td align="right">90.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.32</td>
+</tr>
+<tr>
+<td>Platino</td>
+<td align="right">40</td>
+<td align="right">53.33</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Vitt Sött</td>
+<td align="right">1.31</td>
+</tr>
+<tr>
+<td>Wild Strawberry Sparkling</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Övrigt</td>
+<td align="right">1.29</td>
+</tr>
+<tr>
+<td>Chapel Hill</td>
+<td align="right">146</td>
+<td align="right">97.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">1.28</td>
+</tr>
+<tr>
+<td>Pata Negra</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.23</td>
+</tr>
+<tr>
+<td>El Miracle</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.23</td>
+</tr>
+<tr>
+<td>Charles de Fère</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.23</td>
+</tr>
+<tr>
+<td>Pizzolato Spumante d&#39;Italia Bianco</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.18</td>
+</tr>
+<tr>
+<td>Pizzolato Spumante d&#39;Italia</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.18</td>
+</tr>
+<tr>
+<td>JP Chenet</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.18</td>
+</tr>
+<tr>
+<td>Charles de Fère</td>
+<td align="right">76</td>
+<td align="right">101.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.18</td>
+</tr>
+<tr>
+<td>JP Chenet</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>10.50%</td>
+<td align="right">750</td>
+<td>Vitt Halvtorrt</td>
+<td align="right">1.13</td>
+</tr>
+<tr>
+<td>Campo Viejo</td>
+<td align="right">76</td>
+<td align="right">101.33</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.13</td>
+</tr>
+<tr>
+<td>Freixenet</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Halvtorrt</td>
+<td align="right">1.12</td>
+</tr>
+<tr>
+<td>Tina Spumante</td>
+<td align="right">76</td>
+<td align="right">101.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.09</td>
+</tr>
+<tr>
+<td>Marqués de Monistrol</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.08</td>
+</tr>
+<tr>
+<td>Marqués de Monistrol</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.08</td>
+</tr>
+<tr>
+<td>Codorníu</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.08</td>
+</tr>
+<tr>
+<td>Freixenet</td>
+<td align="right">85</td>
+<td align="right">113.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">1.06</td>
+</tr>
+<tr>
+<td>Platino</td>
+<td align="right">50</td>
+<td align="right">66.67</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">1.05</td>
+</tr>
+<tr>
+<td>Boschendal</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>13.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.98</td>
+</tr>
+<tr>
+<td>Ti Amo</td>
+<td align="right">90</td>
+<td align="right">120</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.96</td>
+</tr>
+<tr>
+<td>Mionetto</td>
+<td align="right">86</td>
+<td align="right">114.67</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.96</td>
+</tr>
+<tr>
+<td>Jacob&#39;s Creek</td>
+<td align="right">90</td>
+<td align="right">120</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.96</td>
+</tr>
+<tr>
+<td>Henkell Trocken</td>
+<td align="right">45</td>
+<td align="right">120</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.96</td>
+</tr>
+<tr>
+<td>Charles Wantz</td>
+<td align="right">99</td>
+<td align="right">132</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.95</td>
+</tr>
+<tr>
+<td>Gardo &amp; Morris</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.94</td>
+</tr>
+<tr>
+<td>Estelado</td>
+<td align="right">96</td>
+<td align="right">128</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.94</td>
+</tr>
+<tr>
+<td>Chapel Hill</td>
+<td align="right">27</td>
+<td align="right">135</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">200</td>
+<td>Vitt Torrt</td>
+<td align="right">0.93</td>
+</tr>
+<tr>
+<td>Törley</td>
+<td align="right">25</td>
+<td align="right">125</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">200</td>
+<td>Rosé</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>Prosecco la Robínía</td>
+<td align="right">90</td>
+<td align="right">120</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>Prosecco</td>
+<td align="right">90</td>
+<td align="right">120</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>Codorníu</td>
+<td align="right">47</td>
+<td align="right">125.33</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>Castelforte</td>
+<td align="right">90</td>
+<td align="right">120</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>Casa Vinironia Prosecco</td>
+<td align="right">90</td>
+<td align="right">120</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>Privat</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>Patriarche</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>MIM Natura</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>LUX Royal</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>Freixenet</td>
+<td align="right">50</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>Cava Blanc de Noirs</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>Blason de Bourgogne</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>Bestheim</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td>Chapel Hill Spumante</td>
+<td align="right">59</td>
+<td align="right">78.67</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Vitt Sött</td>
+<td align="right">0.89</td>
+</tr>
+<tr>
+<td>Asti Araldica</td>
+<td align="right">60</td>
+<td align="right">80</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Vitt Sött</td>
+<td align="right">0.88</td>
+</tr>
+<tr>
+<td>Charles de Fère</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.86</td>
+</tr>
+<tr>
+<td>Ca&#39;Montini</td>
+<td align="right">96</td>
+<td align="right">128</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.86</td>
+</tr>
+<tr>
+<td>Rotari</td>
+<td align="right">221</td>
+<td align="right">147.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.85</td>
+</tr>
+<tr>
+<td>Rotari</td>
+<td align="right">221</td>
+<td align="right">147.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">1500</td>
+<td>Rosé</td>
+<td align="right">0.85</td>
+</tr>
+<tr>
+<td>Rotari</td>
+<td align="right">110</td>
+<td align="right">146.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.85</td>
+</tr>
+<tr>
+<td>Rotari</td>
+<td align="right">110</td>
+<td align="right">146.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.85</td>
+</tr>
+<tr>
+<td>Gardo &amp; Morris</td>
+<td align="right">110</td>
+<td align="right">146.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.85</td>
+</tr>
+<tr>
+<td>P.Lex</td>
+<td align="right">100</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.83</td>
+</tr>
+<tr>
+<td>Castelforte</td>
+<td align="right">50</td>
+<td align="right">133.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.83</td>
+</tr>
+<tr>
+<td>Segura Viudas</td>
+<td align="right">55</td>
+<td align="right">146.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Rosé</td>
+<td align="right">0.82</td>
+</tr>
+<tr>
+<td>Anna de Codorníu Organic</td>
+<td align="right">106</td>
+<td align="right">141.33</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.81</td>
+</tr>
+<tr>
+<td>NVY</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>8.50%</td>
+<td align="right">750</td>
+<td>Övrigt</td>
+<td align="right">0.80</td>
+</tr>
+<tr>
+<td>Gancia Prosecco</td>
+<td align="right">54</td>
+<td align="right">144</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.80</td>
+</tr>
+<tr>
+<td>Geisweiler</td>
+<td align="right">116</td>
+<td align="right">154.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.78</td>
+</tr>
+<tr>
+<td>Henkell Trocken</td>
+<td align="right">30</td>
+<td align="right">150</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">200</td>
+<td>Vitt Torrt</td>
+<td align="right">0.77</td>
+</tr>
+<tr>
+<td>Charles de Fère</td>
+<td align="right">30</td>
+<td align="right">150</td>
+<td>Mousserande vin</td>
+<td>11.50%</td>
+<td align="right">200</td>
+<td>Vitt Torrt</td>
+<td align="right">0.77</td>
+</tr>
+<tr>
+<td>Fresita</td>
+<td align="right">79</td>
+<td align="right">105.33</td>
+<td>Mousserande vin</td>
+<td>8.00%</td>
+<td align="right">750</td>
+<td>Övrigt</td>
+<td align="right">0.76</td>
+</tr>
+<tr>
+<td>Louis Bouillot</td>
+<td align="right">120</td>
+<td align="right">160</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.75</td>
+</tr>
+<tr>
+<td>Louis Bouillot</td>
+<td align="right">120</td>
+<td align="right">160</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.75</td>
+</tr>
+<tr>
+<td>Bacio della Luna</td>
+<td align="right">110</td>
+<td align="right">146.67</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.75</td>
+</tr>
+<tr>
+<td>Pongrácz</td>
+<td align="right">121</td>
+<td align="right">161.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.74</td>
+</tr>
+<tr>
+<td>Jacob&#39;s Creek</td>
+<td align="right">34</td>
+<td align="right">170</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">200</td>
+<td>Vitt Torrt</td>
+<td align="right">0.74</td>
+</tr>
+<tr>
+<td>Freixenet</td>
+<td align="right">33</td>
+<td align="right">165</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">200</td>
+<td>Vitt Torrt</td>
+<td align="right">0.73</td>
+</tr>
+<tr>
+<td>Rotari</td>
+<td align="right">130</td>
+<td align="right">173.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.72</td>
+</tr>
+<tr>
+<td>Mia</td>
+<td align="right">73</td>
+<td align="right">97.33</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Vitt Sött</td>
+<td align="right">0.72</td>
+</tr>
+<tr>
+<td>De Vergy</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>7.50%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.70</td>
+</tr>
+<tr>
+<td>Asti Cinzano</td>
+<td align="right">76</td>
+<td align="right">101.33</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Vitt Sött</td>
+<td align="right">0.69</td>
+</tr>
+<tr>
+<td>Langlois</td>
+<td align="right">140</td>
+<td align="right">186.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.67</td>
+</tr>
+<tr>
+<td>Clotilde Davenne</td>
+<td align="right">140</td>
+<td align="right">186.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.67</td>
+</tr>
+<tr>
+<td>Louis Bouillot</td>
+<td align="right">271</td>
+<td align="right">180.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.66</td>
+</tr>
+<tr>
+<td>Enjoy</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Övrigt</td>
+<td align="right">0.66</td>
+</tr>
+<tr>
+<td>Asti Martini</td>
+<td align="right">80</td>
+<td align="right">106.67</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">750</td>
+<td>Vitt Sött</td>
+<td align="right">0.66</td>
+</tr>
+<tr>
+<td>Spriz Aperitivo</td>
+<td align="right">70</td>
+<td align="right">93.33</td>
+<td>Mousserande vin</td>
+<td>6.00%</td>
+<td align="right">750</td>
+<td>Övrigt</td>
+<td align="right">0.64</td>
+</tr>
+<tr>
+<td>Dopff Brut Cuvée Julien</td>
+<td align="right">70</td>
+<td align="right">186.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.64</td>
+</tr>
+<tr>
+<td>Viva by Carolina Gynning</td>
+<td align="right">130</td>
+<td align="right">173.33</td>
+<td>Mousserande vin</td>
+<td>11.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.63</td>
+</tr>
+<tr>
+<td>Louis Bouillot</td>
+<td align="right">150</td>
+<td align="right">200</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.60</td>
+</tr>
+<tr>
+<td>Ferrari</td>
+<td align="right">156</td>
+<td align="right">208</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.60</td>
+</tr>
+<tr>
+<td>Asti Martini</td>
+<td align="right">46</td>
+<td align="right">122.67</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">375</td>
+<td>Vitt Sött</td>
+<td align="right">0.57</td>
+</tr>
+<tr>
+<td>Asti Cinzano</td>
+<td align="right">47</td>
+<td align="right">125.33</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">375</td>
+<td>Vitt Sött</td>
+<td align="right">0.56</td>
+</tr>
+<tr>
+<td>A Viot</td>
+<td align="right">176</td>
+<td align="right">234.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.51</td>
+</tr>
+<tr>
+<td>Philippe De Nantheuil</td>
+<td align="right">180</td>
+<td align="right">240</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.50</td>
+</tr>
+<tr>
+<td>Charles Mignon</td>
+<td align="right">190</td>
+<td align="right">253.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.47</td>
+</tr>
+<tr>
+<td>Pannier</td>
+<td align="right">200</td>
+<td align="right">266.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.45</td>
+</tr>
+<tr>
+<td>Massé</td>
+<td align="right">220</td>
+<td align="right">293.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.43</td>
+</tr>
+<tr>
+<td>Jeanmaire</td>
+<td align="right">210</td>
+<td align="right">280</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.43</td>
+</tr>
+<tr>
+<td>Beaumont des Crayères</td>
+<td align="right">210</td>
+<td align="right">280</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.43</td>
+</tr>
+<tr>
+<td>Asti Cinzano</td>
+<td align="right">36</td>
+<td align="right">180</td>
+<td>Mousserande vin</td>
+<td>7.00%</td>
+<td align="right">200</td>
+<td>Vitt Sött</td>
+<td align="right">0.39</td>
+</tr>
+<tr>
+<td>Palmer &amp; Co</td>
+<td align="right">260</td>
+<td align="right">346.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.35</td>
+</tr>
+<tr>
+<td>Alexandre Bonnet</td>
+<td align="right">270</td>
+<td align="right">360</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.35</td>
+</tr>
+<tr>
+<td>Grönstedts Champagne</td>
+<td align="right">280</td>
+<td align="right">373.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.33</td>
+</tr>
+<tr>
+<td>Alexandre Bonnet</td>
+<td align="right">270</td>
+<td align="right">360</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.33</td>
+</tr>
+<tr>
+<td>Vve Fourny &amp; Fils</td>
+<td align="right">280</td>
+<td align="right">373.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.32</td>
+</tr>
+<tr>
+<td>Paul Goerg</td>
+<td align="right">279</td>
+<td align="right">372</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.32</td>
+</tr>
+<tr>
+<td>Massé</td>
+<td align="right">150</td>
+<td align="right">400</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.31</td>
+</tr>
+<tr>
+<td>Jeanmaire</td>
+<td align="right">146</td>
+<td align="right">389.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.31</td>
+</tr>
+<tr>
+<td>Collet</td>
+<td align="right">150</td>
+<td align="right">400</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.31</td>
+</tr>
+<tr>
+<td>Beaumont des Crayères</td>
+<td align="right">290</td>
+<td align="right">386.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.31</td>
+</tr>
+<tr>
+<td>André Clouet</td>
+<td align="right">290</td>
+<td align="right">386.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.31</td>
+</tr>
+<tr>
+<td>Baron Fuenté</td>
+<td align="right">310</td>
+<td align="right">413.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.30</td>
+</tr>
+<tr>
+<td>André Clouet</td>
+<td align="right">621</td>
+<td align="right">414</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.29</td>
+</tr>
+<tr>
+<td>Piper-Heidsieck</td>
+<td align="right">320</td>
+<td align="right">426.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.28</td>
+</tr>
+<tr>
+<td>Nicolas Feuillatte</td>
+<td align="right">320</td>
+<td align="right">426.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.28</td>
+</tr>
+<tr>
+<td>Launois</td>
+<td align="right">320</td>
+<td align="right">426.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.28</td>
+</tr>
+<tr>
+<td>André Clouet</td>
+<td align="right">320</td>
+<td align="right">426.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.28</td>
+</tr>
+<tr>
+<td>Tsarine</td>
+<td align="right">330</td>
+<td align="right">440</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.27</td>
+</tr>
+<tr>
+<td>Tsarine</td>
+<td align="right">330</td>
+<td align="right">440</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.27</td>
+</tr>
+<tr>
+<td>Pierre Peters</td>
+<td align="right">330</td>
+<td align="right">440</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.27</td>
+</tr>
+<tr>
+<td>Palmer &amp; Co</td>
+<td align="right">330</td>
+<td align="right">440</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.27</td>
+</tr>
+<tr>
+<td>Palmer &amp; Co</td>
+<td align="right">165</td>
+<td align="right">440</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.27</td>
+</tr>
+<tr>
+<td>Palmer</td>
+<td align="right">340</td>
+<td align="right">453.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.26</td>
+</tr>
+<tr>
+<td>Launois</td>
+<td align="right">350</td>
+<td align="right">466.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.26</td>
+</tr>
+<tr>
+<td>Cuperly</td>
+<td align="right">340</td>
+<td align="right">453.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.26</td>
+</tr>
+<tr>
+<td>Alexandre Bonnet</td>
+<td align="right">170</td>
+<td align="right">453.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.26</td>
+</tr>
+<tr>
+<td>Alexandre Bonnet</td>
+<td align="right">170</td>
+<td align="right">453.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Rosé</td>
+<td align="right">0.26</td>
+</tr>
+<tr>
+<td>Lanson</td>
+<td align="right">370</td>
+<td align="right">493.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.25</td>
+</tr>
+<tr>
+<td>Diebolt-Vallois</td>
+<td align="right">370</td>
+<td align="right">493.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.25</td>
+</tr>
+<tr>
+<td>André Clouet</td>
+<td align="right">180</td>
+<td align="right">480</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.25</td>
+</tr>
+<tr>
+<td>Mumm</td>
+<td align="right">380</td>
+<td align="right">506.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.24</td>
+</tr>
+<tr>
+<td>Heidsieck &amp; Co Monopole</td>
+<td align="right">100</td>
+<td align="right">500</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">200</td>
+<td>Vitt Torrt</td>
+<td align="right">0.24</td>
+</tr>
+<tr>
+<td>Taittinger</td>
+<td align="right">386</td>
+<td align="right">514.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.23</td>
+</tr>
+<tr>
+<td>Moët &amp; Chandon</td>
+<td align="right">791</td>
+<td align="right">527.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.23</td>
+</tr>
+<tr>
+<td>Moët &amp; Chandon</td>
+<td align="right">390</td>
+<td align="right">520</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.23</td>
+</tr>
+<tr>
+<td>Lanson</td>
+<td align="right">400</td>
+<td align="right">533.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.23</td>
+</tr>
+<tr>
+<td>Deutz</td>
+<td align="right">399</td>
+<td align="right">532</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.23</td>
+</tr>
+<tr>
+<td>Veuve Clicquot</td>
+<td align="right">410</td>
+<td align="right">546.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Veuve Clicquot</td>
+<td align="right">410</td>
+<td align="right">546.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Halvtorrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Taittinger</td>
+<td align="right">201</td>
+<td align="right">536</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Pol Roger</td>
+<td align="right">811</td>
+<td align="right">540.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Pol Roger</td>
+<td align="right">410</td>
+<td align="right">546.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Palmer &amp; Co</td>
+<td align="right">831</td>
+<td align="right">554</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Palmer &amp; Co</td>
+<td align="right">801</td>
+<td align="right">534</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Louis Roederer</td>
+<td align="right">410</td>
+<td align="right">546.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.22</td>
+</tr>
+<tr>
+<td>Moët &amp; Chandon</td>
+<td align="right">436</td>
+<td align="right">581.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.21</td>
+</tr>
+<tr>
+<td>Louis Roederer</td>
+<td align="right">216</td>
+<td align="right">576</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.21</td>
+</tr>
+<tr>
+<td>Lanson</td>
+<td align="right">225</td>
+<td align="right">600</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">375</td>
+<td>Rosé</td>
+<td align="right">0.21</td>
+</tr>
+<tr>
+<td>Veuve Clicquot</td>
+<td align="right">230</td>
+<td align="right">613.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.20</td>
+</tr>
+<tr>
+<td>Veuve Clicquot</td>
+<td align="right">230</td>
+<td align="right">613.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Halvtorrt</td>
+<td align="right">0.20</td>
+</tr>
+<tr>
+<td>Pol Roger</td>
+<td align="right">221</td>
+<td align="right">589.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.20</td>
+</tr>
+<tr>
+<td>Moët &amp; Chandon</td>
+<td align="right">220</td>
+<td align="right">586.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.20</td>
+</tr>
+<tr>
+<td>Bollinger</td>
+<td align="right">450</td>
+<td align="right">600</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.20</td>
+</tr>
+<tr>
+<td>Taittinger</td>
+<td align="right">490</td>
+<td align="right">653.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.19</td>
+</tr>
+<tr>
+<td>Moët &amp; Chandon</td>
+<td align="right">241</td>
+<td align="right">642.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Rosé</td>
+<td align="right">0.19</td>
+</tr>
+<tr>
+<td>Moët &amp; Chandon</td>
+<td align="right">126</td>
+<td align="right">630</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">200</td>
+<td>Vitt Torrt</td>
+<td align="right">0.19</td>
+</tr>
+<tr>
+<td>Bollinger</td>
+<td align="right">951</td>
+<td align="right">634</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">1500</td>
+<td>Vitt Torrt</td>
+<td align="right">0.19</td>
+</tr>
+<tr>
+<td>Pol Roger</td>
+<td align="right">530</td>
+<td align="right">706.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.18</td>
+</tr>
+<tr>
+<td>Gosset</td>
+<td align="right">500</td>
+<td align="right">666.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.18</td>
+</tr>
+<tr>
+<td>Bollinger</td>
+<td align="right">250</td>
+<td align="right">666.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">375</td>
+<td>Vitt Torrt</td>
+<td align="right">0.18</td>
+</tr>
+<tr>
+<td>Louis Roederer</td>
+<td align="right">560</td>
+<td align="right">746.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.16</td>
+</tr>
+<tr>
+<td>Louis Roederer</td>
+<td align="right">560</td>
+<td align="right">746.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.16</td>
+</tr>
+<tr>
+<td>Henriot</td>
+<td align="right">550</td>
+<td align="right">733.33</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.16</td>
+</tr>
+<tr>
+<td>Pol Roger</td>
+<td align="right">620</td>
+<td align="right">826.67</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.15</td>
+</tr>
+<tr>
+<td>Bollinger</td>
+<td align="right">590</td>
+<td align="right">786.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Rosé</td>
+<td align="right">0.15</td>
+</tr>
+<tr>
+<td>Bollinger</td>
+<td align="right">950</td>
+<td align="right">1266.67</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.09</td>
+</tr>
+<tr>
+<td>Dom Pérignon</td>
+<td align="right">1380</td>
+<td align="right">1840</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.07</td>
+</tr>
+<tr>
+<td>Cuvée Sir Winston Churchill</td>
+<td align="right">1351</td>
+<td align="right">1801.33</td>
+<td>Mousserande vin</td>
+<td>12.50%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.07</td>
+</tr>
+<tr>
+<td>Krug</td>
+<td align="right">1500</td>
+<td align="right">2000</td>
+<td>Mousserande vin</td>
+<td>12.00%</td>
+<td align="right">750</td>
+<td>Vitt Torrt</td>
+<td align="right">0.06</td>
+</tr>			
+    </tbody></table>
+</head>
+<br>
+<div class="center">
+  <footer>
+    Grupp 8 - StudentAPK - Multimedia, [2AD349]
+  </footer>
+</div>
+</html>
+	  
