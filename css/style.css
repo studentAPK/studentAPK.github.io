@@ -180,21 +180,6 @@ COLUMNS
             
             }
 
-#contomvandlaren {
-  height: 0px;
-  overflow: hidden;
-  transition: height 0.5s;
-
-}
-section {
-  padding: 0 20px;
-}
-#toggle:checked ~ #conomvandlaren {
-  height: 250px;
-}
-#toggle:checked ~ label::before {
-  content: "-";
-}
 /*#bakgrundsbild1 {
             width: 280px;
             position: absolute;
