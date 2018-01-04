@@ -297,7 +297,8 @@ COLUMNS
             }
 
 #du {
-	color: red;
+	color: white;
+	font-size: 100px;
 
 }
 /*#bakgrundsbild1 {
