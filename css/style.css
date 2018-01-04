@@ -250,6 +250,15 @@ color: #ffffff;
 font-size: 20px;
 text-decoration: none;
 }
+
+#apkinfo{
+    font-style: italic;
+    text-decoration: none;
+    color: #2d2926;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+}
+
 /*
 h1 {
 font-family: 'Libre Baskerville', serif;
@@ -280,7 +289,7 @@ COLUMNS
     vertical-align: top;
 }
 
-#omvandlarbild{
+.omvandlarbild{
     width: 306px;
             display: block;
             margin-left: auto;
@@ -337,7 +346,7 @@ COLUMNS
 }
 
 
-#listbild{
+.listbild{
     width: 306px;
     display: block;
     margin-left: auto;
@@ -378,8 +387,6 @@ footer{
 MEDIAQUERIES
 ***************************************************************/
 
-/* Tablet */
-
 @media (max-width: 768px){
     #col1, #col2 {
 display: block;
@@ -387,8 +394,23 @@ display: block;
     width: 90%;
     }
     #omvandlarrubrik{
-        
+        text-align: center;
+        position: relative;
+        top: -250px;
     }
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  #col1 { display: none; }  /* Tar bort startsidebilderna från liten skärm */
+  #col2 { display: none; }  /* Tar bort startsidebilderna från liten skärm */
+  #col1phone { display: block; }   /* hide it elsewhere */
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1920px) {
+  #col1phone { display: none; }   /* hide it elsewhere */
+  #col2phone { display: none; }   /* hide it elsewhere */
 }
 
 
