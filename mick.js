@@ -43,8 +43,7 @@ function processData(allText) {
     var sek = document.querySelector('#SEK');
     var du = document.querySelector('#du');
     var value = sek.value
-    du.textContent = "Du kan köpa " + Math.floor(sek.value / result) + " enheter av: " + name; 
-    du.textContent.style.color="#ffffff";	
+    du.textContent = "Du kan köpa " + Math.floor(sek.value / result) + " enheter av: " + name; 	
 };
 
 var node = document.querySelector('#hej');
