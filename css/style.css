@@ -229,7 +229,7 @@ font-size: 20px;
 text-decoration: none;
 }
 
-#omvandlarrubrik:hover{
+#omvandlarrubrik:hover {
 text-decoration: underline;
 }
 
@@ -253,6 +253,10 @@ a {
 color: #ffffff;
 font-size: 20px;
 text-decoration: none;
+}
+
+#listrubrik:hover {
+    text-decoration: underline;
 }
 
 #apkinfo{
