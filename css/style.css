@@ -267,6 +267,10 @@ text-decoration: none;
     font-size: 15px;
 }
 
+#apkinfo:hover {
+    text-decoration: underline;
+}
+
 /*
 h1 {
 font-family: 'Libre Baskerville', serif;
