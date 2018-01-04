@@ -296,6 +296,10 @@ COLUMNS
             transform: translate(-50%, -50%);
             }
 
+#du {
+	color: red;
+
+}
 /*#bakgrundsbild1 {
             width: 280px;
             position: absolute;
